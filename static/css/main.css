@@ -859,6 +859,12 @@ html {
     }
 }
 
+@media (max-width: 420px) {
+    .hero-text{
+        font-size: 16px;
+    }
+}
+
 
         /* A meglévő CSS kódod - változatlan */
         .solution-image-container img {
@@ -1204,4 +1210,46 @@ html {
 #our_mission .contentBx
 {
     padding-bottom: 0px;
+}
+
+/* For mobile */
+
+/* @media (max-width: 600px) {
+    .solutions-container {
+        flex-direction: column;
+    }
+    
+    .solutions-left-panel, 
+    .solutions-right-panel {
+        width: 100%;
+    }
+    
+    .solutions-left-panel {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .solution-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .solutions-right-panel {
+        padding: 20px;
+    }
+} */
+
+@media (max-width: 600px) {
+    .solutions-container {
+        flex-direction: column;
+    }
+    
+    .solutions-left-panel {
+        display: none;  /* Add this line */
+    }
+    
+    .solutions-right-panel {
+        width: 100%;
+        padding: 20px;
+    }
 }
