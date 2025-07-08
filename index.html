@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <title>Automateys</title>
+        <link rel="stylesheet" href="static/css/main.css">
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">☝🏻 Go to top</button>
+        <!-- Banner -->
+        <div class="banner">
+
+            <img src="static/images/background.png">
+
+            <div id="menuToggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li><a class="nav-item" href="#our_mission">Our Mission</a></li>
+                    <li><a class="nav-item" href="#our_solutions">Our Solutions</a></li>
+                    <li><a class="nav-item" href="#experiences">Our Team</a></li>
+                    <li><a class="nav-item" href="#skills">Contact</a></li>
+                </ul>
+            </div>
+
+            <header>
+                <a href="#our_mission" class="logo">
+                    Our mission
+                </a>
+                <a href="#our_solutions" class="logo">
+                    Our solutions
+                </a>
+                <a href="#experiences" class="logo">
+                    Our team
+                </a>  
+                <a href="#skills" class="logo">
+                    Contact
+                </a>
+            </header>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="line1">We automate</div>
+                    <div class="line2"><span class="highlight-boring">the boring</span>.</div>
+                    <div class="line3">So our customers can build</div>
+                    <div class="line4"><span class="highlight-brilliant">the brilliant</span>.</div>
+                </div>
+            </div>
+            <div class="automateys-logo">
+                automateys
+            </div>
+        </div>
+        <section id="our_mission" class="about">
+            <div class="contentBx">
+                <h2 class="heading" data-center-center="opacity: 1; left: 0;" data-0-bottom="opacity: 0; left: 500px;">Our mission</h2>
+                <p class="text" data-center-center="opacity: 1; left: 0;" data-0-bottom="opacity: 0; left: -500px;">
+                    At Automateys, our mission is to empower small and medium-sized enterprises (SMEs) by making process automation simple, accessible, and impactful. We recognize that many SMEs struggle with repetitive, time-consuming tasks that inflate operational costs and limit growth.<br><br>
+                    We are building an intuitive, SaaS-based platform that enables SMEs to automate these processes with ease, without requiring deep technical expertise. Our solution combines the power of advanced automation tools with a user-friendly, no-code interface tailored specifically to SME needs. By leveraging community-validated templates and an AI-powered process assistant, we reduce complexity and accelerate adoption, allowing businesses to increase operational capacity and improve efficiency. Our platform seamlessly integrates with existing business ecosystems, scales alongside company growth, and fosters collaboration within industry communities to continuously enhance automation value.<br><br>
+                    Through democratizing automation, we strive to help SMEs worldwide reduce costs, boost revenue, and adapt swiftly to evolving market demands—fueling sustainable economic growth and resilience.
+                </p>
+            </div>
+        </section>
+
+        <section id="transition_section_1" class="transition_1"></section>
+
+        <section id="our_solutions" class="services">
+            <h2 class="heading white" data-center-center="opacity: 1; left: 0;" data-0-bottom="opacity: 0; left: 500px;">Our Solutions</h2>
+            <div class="solutions-container">
+                <div class="solutions-left-panel">
+                    <button id="rfi_form"class="solution-button selected" onclick="showContent(this.id)">Dynamic Live RFI Form</button>
+                    <button class="solution-button" onclick="showContent(this.id)">Coming soon...</button>
+                    <button class="solution-button" onclick="showContent(this.id)">Coming soon...</button>
+                    <button class="solution-button" onclick="showContent(this.id)">Coming soon...</button>
+                </div>
+                
+                <div class="solutions-right-panel">
+                    <div class="solution-content-section">
+                        <h2>Dynamic Live RFI Form</h2>
+                        
+                        <div class="solution-image-container">
+                            <img src="static/images/image_1.png" alt="Image 1">
+                            <img src="static/images/image_2.png" alt="Image 2" >
+                        </div>
+
+                        <div class="lightbox" id="lightbox">
+                            <div class="lightbox-content">
+                                <button class="close-btn" id="closeBtn">&times;</button>
+                                <img class="lightbox-image" id="lightboxImage" src="" alt="">
+                            </div>
+                        </div>
+                        
+                        <p>
+                            One form, two sides — zero hassle.
+                            Say goodbye to chaotic emails and version confusion with our real-time, collaborative RFI form that connects clients and service providers instantly. Enjoy live comments, instant updates, and smooth approvals—all in one dynamic platform.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiences" class="experiences">
+            <div class="contentBx">
+                <h2 class="heading" data-center-center="opacity: 1; left: 0;" data-0-bottom="opacity: 0; left: 500px;">Our Team</h2>
+            </div>
+            <section class="our-team">
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="static/images/Balint.png" alt="Balint Biro">
+                        </div>
+                        <h3 class="member-name">Balint Biro</h3>
+                        <p class="member-role">Co-Founder</p>
+                        <p class="member-intro">
+                            Years of experience as a Product Owner of Automation & Framework Development in the Automotive Industry (at Jaguar Land Rover). Actively contributed to organizational transformations, including agile adoption. Currently a Product Manager on BPM and Data Analysis fields.
+                        </p>
+                        <div class="social-links">
+                            <a href="mailto:birobalint95@gmail.com" id="mail-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/birobalint" id="instagram-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/biro95" id="facebook-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/balintbiro" id="linkedin-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>  
+                        </div>
+                    </div>
+        
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="static/images/Ostap.jpeg" alt="Ostap Kharysh">
+                        </div>
+                        <h3 class="member-name">Ostap Kharysh</h3>
+                        <p class="member-role">Co-Founder</p>
+                        <p class="member-intro">
+                            Business process and technology professional with a background in strategy consulting (at Deloitte). Worked across industries on digital enablement and organisational transformation, focusing on low-code automation. Currently a Product Manager on BPM and Process Automation fields.
+                        </p>
+                        <div class="social-links">
+                            <a href="mailto:kharyshostap@gmail.com" id="mail-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/ost_kharysh" id="instagram-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/ostap.kharysh" id="facebook-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ostapkharysh" id="linkedin-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="transition_section_2" class="transition_2"></section>
+
+        <section id="skills" class="services">
+            <h2 class="heading white" data-center-center="opacity: 1; left: 0;" data-0-bottom="opacity: 0; left: 500px;">Contact</h2>
+            <div class="container">
+                <p class="text white">
+                    Ready to simplify your processes? We’d be happy to explore how our solutions can support your goals. Fill out the form below and we’ll get back to you shortly — or feel free to reach out directly using the contact details above.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="about contact">
+            <div class="contentBx">
+                <div class="form">
+                    <div class="inputBx">
+                        <input type="text" id="full_name" placeholder="Full Name"> 
+                    </div>
+                    <div class="inputBx">
+                        <input type="text" id="email" name="" placeholder="Email Address"> 
+                    </div>
+                    <div class="inputBx">
+                        <textarea id="message" placeholder="Write your message here"></textarea>
+                    </div>
+                    <div class="inputBx">
+                        <input type="submit" name="" value="Send" onclick="sendMail()">
+                        <!-- <input type="button" value="Send" onclick="sendMail()"> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="services footer">
+            <div class="footer">
+                <div class="footer-name">© Automateys, 2025</div> 
+            </div>
+        </section>
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+                if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <script>
+            function myFunction(elem) {
+                var parent = elem.parentNode;
+                var dots = parent.children[3];
+                var moreText = parent.children[4];
+                var btnText = elem;
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                    const yOffset = -20;
+                    const y = elem.parentNode.nextElementSibling.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                    window.scrollTo({top: y, behavior: 'smooth'})
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
+        <script>
+            // Lightbox funkció
+            class ImageLightbox {
+                constructor() {
+                    this.lightbox = document.getElementById('lightbox');
+                    this.lightboxImage = document.getElementById('lightboxImage');
+                    this.closeBtn = document.getElementById('closeBtn');
+                    // Itt használjuk a meglévő selector-odat
+                    this.galleryImages = document.querySelectorAll('.solution-image-container img');
+                    
+                    this.init();
+                }
+    
+                init() {
+                    // Eseménykezelők hozzáadása a képekhez
+                    this.galleryImages.forEach(img => {
+                        img.addEventListener('click', (e) => this.openLightbox(e.target));
+                    });
+    
+                    // Bezárás X gombbal
+                    this.closeBtn.addEventListener('click', () => this.closeLightbox());
+    
+                    // Bezárás háttérre kattintással
+                    this.lightbox.addEventListener('click', (e) => {
+                        if (e.target === this.lightbox) {
+                            this.closeLightbox();
+                        }
+                    });
+    
+                    // Bezárás ESC billentyűvel
+                    document.addEventListener('keydown', (e) => {
+                        if (e.key === 'Escape' && this.lightbox.classList.contains('active')) {
+                            this.closeLightbox();
+                        }
+                    });
+                }
+    
+                openLightbox(img) {
+                    this.lightboxImage.src = img.src;
+                    this.lightboxImage.alt = img.alt;
+                    this.lightbox.classList.add('active');
+                    
+                    // Body scroll letiltása
+                    document.body.style.overflow = 'hidden';
+                }
+    
+                closeLightbox() {
+                    this.lightbox.classList.remove('active');
+                    
+                    // Body scroll visszaállítása
+                    document.body.style.overflow = '';
+                    
+                    // Kép törlése (memória optimalizálás)
+                    setTimeout(() => {
+                        this.lightboxImage.src = '';
+                    }, 300);
+                }
+            }
+    
+            // Inicializálás amikor a DOM betöltődött
+            document.addEventListener('DOMContentLoaded', () => {
+                new ImageLightbox();
+            });
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script>
+        // Initialize with your public key
+        emailjs.init("0DMnK9UP6tDuHFJ_L");
+
+        function sendMail() {
+            const fullName = document.getElementById('full_name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            emailjs.send("service_z0d2pcx", "template_a59cs55", {
+                from_name: fullName,
+                from_email: email,
+                message: message
+            }).then(function(response) {
+                alert('Email sent successfully!');
+            }, function(error) {
+                alert('Failed to send email.');
+            });
+        }
+        </script>
+
+    </body>
+</html>
+
